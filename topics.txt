@@ -1,0 +1,20 @@
+3.1 Algorithms
+What an Algorithm Is & Pseudocode: Finite step-by-step procedures for solving problems, input/output specifications, definiteness, correctness, finiteness, and effectiveness; reading and writing pseudocode (loops, conditionals, assignment, procedures).
+Searching Algorithms:
+- Linear Search: Scans a list sequentially from start to finish until a target element is found or the end is reached. Works on unsorted or sorted lists.
+- Binary Search: Repeatedly divides a sorted list in half, comparing the target value to the middle element and eliminating the half where the target cannot lie.
+Sorting Algorithms:
+- Bubble Sort: Repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order until no more swaps are needed.
+- Insertion Sort: Builds the sorted list one element at a time by taking each subsequent item and inserting it into its proper position among the previously sorted elements.
+String Matching: Finding occurrences of a target pattern string within a longer text string (such as the brute-force string-matching approach).
+Greedy Algorithms: Making the locally optimal choice at each step in hopes of finding a global optimum (covered through classic optimization examples such as making change using the fewest coins and scheduling).
+The Halting Problem: The foundational computability result showing that no general algorithm can determine for all arbitrary programs and inputs whether a program will eventually halt or run forever (unsolvable/undecidable problems).
+
+3.2 The Growth of Functions
+Asymptotic Dominance & Growth Rates: Comparing how functions scale as input size $n$ grows large, rather than focusing on small inputs or constant factors.
+Big-O Notation ($O(g(x))$): Upper-bound asymptotic growth ($f(x)$ grows no faster than a constant multiple of $g(x)$ beyond some threshold); standard function hierarchy (constant, logarithmic, polylogarithmic, linear, $n \log n$, polynomial, exponential, factorial).
+Big-Omega ($\Omega(g(x))$) and Big-Theta ($\Theta(g(x))$): Lower-bound growth ($\Omega$) and tight asymptotic bounds ($\Theta$, where growth is bounded both above and below by constant multiples of $g(x)$).
+
+3.3 Complexity of Algorithms
+Time Complexity: Measuring running time by counting basic operations (such as comparisons, swaps, or arithmetic steps) as a function of input size, analyzing worst-case, average-case, and best-case behavior (e.g., comparing linear vs. binary search or bubble vs. insertion sort).
+Algorithmic Paradigms & Tractability: Broad design approaches and problem-classification ideas (such as greedy methods, brute force/exhaustive search, dynamic programming context, and distinguishing tractable/polynomial-time problems from intractable ones).
